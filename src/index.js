@@ -75,7 +75,7 @@ var newData = {
   scale: 1,
   locked: 0
 };
-for (var i = 0; i < 100; ++i) {
+for (var i = 0; i < 500; ++i) {
   let tmp = copyData();
   newData.nodes.push.apply(newData.nodes, tmp.nodes);
   newData.lines.push.apply(newData.lines, tmp.lines);
